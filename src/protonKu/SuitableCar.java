@@ -43,6 +43,7 @@ public class SuitableCar extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
         jLabel1.setText("Put the price below: Wira: RM1000, X50: RM2000");
 
         car.addActionListener(new java.awt.event.ActionListener() {
@@ -67,6 +68,8 @@ public class SuitableCar extends javax.swing.JFrame {
                 EnterActionPerformed(evt);
             }
         });
+
+        Result.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
 
         jLabel4.setText("Acessories (RM):");
 
@@ -98,7 +101,7 @@ public class SuitableCar extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(Enter)
                             .addComponent(Accessories, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(72, Short.MAX_VALUE))
+                .addContainerGap(60, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -118,7 +121,7 @@ public class SuitableCar extends javax.swing.JFrame {
                     .addComponent(Enter))
                 .addGap(114, 114, 114)
                 .addComponent(Result)
-                .addContainerGap(85, Short.MAX_VALUE))
+                .addContainerGap(82, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
